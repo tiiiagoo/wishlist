@@ -8,8 +8,8 @@ import static org.mockito.Mockito.when;
 
 import br.tgs.entity.customer.gateway.CustomerGateway;
 import br.tgs.entity.customer.model.Customer;
-import br.tgs.entity.wishlist.model.Wishlist;
-import br.tgs.entity.wishlist.model.WishlistContent;
+import br.tgs.entity.customer.model.valueobjects.wishlist.model.Wishlist;
+import br.tgs.entity.customer.model.valueobjects.wishlist.model.WishlistContent;
 import br.tgs.usecase.wishlist.WishlistFindAllProductsUserCase;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;

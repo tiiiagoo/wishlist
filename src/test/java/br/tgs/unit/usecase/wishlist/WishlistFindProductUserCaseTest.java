@@ -11,8 +11,8 @@ import br.tgs.entity.customer.gateway.CustomerGateway;
 import br.tgs.entity.customer.model.Customer;
 import br.tgs.entity.product.gateway.ProductGateway;
 import br.tgs.entity.product.model.Product;
-import br.tgs.entity.wishlist.model.Wishlist;
-import br.tgs.entity.wishlist.model.WishlistContent;
+import br.tgs.entity.customer.model.valueobjects.wishlist.model.Wishlist;
+import br.tgs.entity.customer.model.valueobjects.wishlist.model.WishlistContent;
 import br.tgs.usecase.wishlist.WishlistFindProductUserCase;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
@@ -61,7 +61,7 @@ class WishlistFindProductUserCaseTest {
 		val wishlistSelected = wishlistFindProductUserCase.execute(CUSTOMER_1_ID, PRODUCT_1_ID);
 
 		assertEquals(1, wishlistSelected.getContents().size());
-		assertEquals(product.getId(), wishlistSelected.getContents().getFirst().getProduct().getId());
+		assertEquals(product.getId().toHexString(), wishlistSelected.getContents().getFirst().getProductId());
 	}
 
 	@Test
@@ -69,7 +69,7 @@ class WishlistFindProductUserCaseTest {
 		val producut = buildProduct1();
 		var customer = buildCustomer1();
 		customer.setWishlist(new Wishlist(List.of(WishlistContent.builder()
-				.product(producut)
+				.productId(producut.getId().toHexString())
 				.desiredAt(LOCAL_DATE_TIME)
 			.build())));
 

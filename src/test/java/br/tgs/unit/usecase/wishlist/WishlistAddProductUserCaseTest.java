@@ -15,9 +15,9 @@ import br.tgs.entity.customer.gateway.CustomerGateway;
 import br.tgs.entity.customer.model.Customer;
 import br.tgs.entity.product.gateway.ProductGateway;
 import br.tgs.entity.product.model.Product;
-import br.tgs.entity.wishlist.model.Wishlist;
-import br.tgs.entity.wishlist.model.WishlistContent;
-import br.tgs.entity.wishlist.exception.WishlistException;
+import br.tgs.entity.customer.model.valueobjects.wishlist.model.Wishlist;
+import br.tgs.entity.customer.model.valueobjects.wishlist.model.WishlistContent;
+import br.tgs.entity.customer.model.valueobjects.wishlist.exception.WishlistException;
 import br.tgs.usecase.wishlist.WishlistAddProductUserCase;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
@@ -139,7 +139,7 @@ class WishlistAddProductUserCaseTest {
 	private Customer buildCustomer2() {
 		var contents = new ArrayList<WishlistContent>();
 		contents.add(WishlistContent.builder()
-			.product(buildProduct1())
+			.productId(buildProduct1().getId().toHexString())
 			.desiredAt(LOCAL_DATE_TIME)
 			.build());
 		return Customer.builder()

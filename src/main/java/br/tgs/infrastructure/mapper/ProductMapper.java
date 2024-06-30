@@ -3,7 +3,6 @@ package br.tgs.infrastructure.mapper;
 import br.tgs.entity.product.model.Product;
 import br.tgs.infrastructure.product.dto.CreatedProductRequest;
 import br.tgs.infrastructure.product.dto.ProductCreatedResponse;
-import br.tgs.infrastructure.wishlist.dto.WishlistProductResponse;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
@@ -19,6 +18,4 @@ public interface ProductMapper {
 	@Mapping(target = "id", expression = "java(product.getId().toHexString())")
 	ProductCreatedResponse toResponse(Product product);
 
-	@Mapping(target = "id", expression = "java(product.getId().toHexString())")
-	WishlistProductResponse toWishlistProdustResponse(Product product);
 }

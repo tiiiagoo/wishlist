@@ -2,7 +2,7 @@ package br.tgs.infrastructure.config.exception;
 
 import br.tgs.entity.customer.exception.CustomerNotFoundException;
 import br.tgs.entity.product.exception.ProductNotFoundException;
-import br.tgs.entity.wishlist.exception.WishlistException;
+import br.tgs.entity.customer.model.valueobjects.wishlist.exception.WishlistException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;

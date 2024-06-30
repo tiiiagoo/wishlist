@@ -1,6 +1,6 @@
 package br.tgs.entity.customer.model;
 
-import br.tgs.entity.wishlist.model.Wishlist;
+import br.tgs.entity.customer.model.valueobjects.wishlist.model.Wishlist;
 import java.time.LocalDateTime;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

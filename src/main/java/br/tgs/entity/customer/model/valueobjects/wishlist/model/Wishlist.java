@@ -1,4 +1,4 @@
-package br.tgs.entity.wishlist.model;
+package br.tgs.entity.customer.model.valueobjects.wishlist.model;
 
 
 import java.util.List;

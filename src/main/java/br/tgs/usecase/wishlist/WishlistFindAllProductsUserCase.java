@@ -2,7 +2,7 @@ package br.tgs.usecase.wishlist;
 
 import br.tgs.entity.customer.gateway.CustomerGateway;
 import br.tgs.entity.customer.model.Customer;
-import br.tgs.entity.wishlist.model.Wishlist;
+import br.tgs.entity.customer.model.valueobjects.wishlist.model.Wishlist;
 import java.util.Collections;
 import java.util.Optional;
 import lombok.RequiredArgsConstructor;

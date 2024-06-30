@@ -1,6 +1,5 @@
-package br.tgs.entity.wishlist.model;
+package br.tgs.entity.customer.model.valueobjects.wishlist.model;
 
-import br.tgs.entity.product.model.Product;
 import java.time.LocalDateTime;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,7 +12,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class WishlistContent {
 
-	private Product product;
+	private String productId;
 	private LocalDateTime desiredAt;
 
 }

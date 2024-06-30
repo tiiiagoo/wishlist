@@ -1,182 +1,82 @@
 [
   {
-    "product": {
-      "id": "6679817d2847f677df8ad2cb",
-      "name": "Cadeira de Escritório Secretária Base Cromada com Rodinha Fortt Lisboa - CSF02",
-      "price": 179.9,
-      "type": "FURNITURE"
-    },
+    "productId": "6679817d2847f677df8ad2cb",
     "desiredAt": "2024-06-25T17:39:35.848"
   },
   {
-    "product": {
-      "id": "66797be32847f677df8ad2be",
-      "name": "Lavadora de Roupas Brastemp 13kg Cesto Inox - 12 Programas de Lavagem Branca BWK13",
-      "price": 1899.05,
-      "type": "HOUSEHOLD_APPLIANCE"
-    },
+    "productId": "66797be32847f677df8ad2be",
     "desiredAt": "2024-06-25T17:56:34.123"
   },
   {
-    "product": {
-      "id": "66797864cc88591b111115c0",
-      "name": "Smartphone Samsung",
-      "price": 2600,
-      "type": "CELL_PHONES"
-    },
+    "productId": "66797864cc88591b111115c0",
     "desiredAt": "2024-06-25T19:17:45.924"
   },
   {
-    "product": {
-      "id": "667979c32847f677df8ad2b8",
-      "name": "Iphone 15 Pro",
-      "price": 7500,
-      "type": "CELL_PHONES"
-    },
+    "productId": "667979c32847f677df8ad2b8",
     "desiredAt": "2024-06-25T19:17:54.747"
   },
   {
-    "product": {
-      "id": "667979e52847f677df8ad2b9",
-      "name": "Iphone 13 Silver",
-      "price": 4900,
-      "type": "CELL_PHONES"
-    },
+    "productId": "667979e52847f677df8ad2b9",
     "desiredAt": "2024-06-25T19:18:02.928"
   },
   {
-    "product": {
-      "id": "66797a932847f677df8ad2ba",
-      "name": "Smartphone Motorola Moto G54 256GB Azul 5G 8GB RAM 6,5",
-      "price": 1199,
-      "type": "CELL_PHONES"
-    },
+    "productId": "66797a932847f677df8ad2ba",
     "desiredAt": "2024-06-25T19:18:15.157"
   },
   {
-    "product": {
-      "id": "66797aee2847f677df8ad2bb",
-      "name": "Smartphone Samsung Galaxy A15 6,5 128GB Azul Claro 4G 4GB RAM Câm. Tripla 50MP + Selfie 13MP 5000mAh Dual Chip",
-      "price": 999,
-      "type": "CELL_PHONES"
-    },
+    "productId": "66797aee2847f677df8ad2bb",
     "desiredAt": "2024-06-25T19:18:22.349"
   },
   {
-    "product": {
-      "id": "66797b512847f677df8ad2bc",
-      "name": "iPhone 11 Apple 64GB Preto 6,1 12MP iOS + Cabo - de Lightning para USB (2m) Apple Original",
-      "price": 3063.51,
-      "type": "CELL_PHONES"
-    },
+    "productId": "66797b512847f677df8ad2bc",
     "desiredAt": "2024-06-25T19:18:28.463"
   },
   {
-    "product": {
-      "id": "66797b982847f677df8ad2bd",
-      "name": "Fogão de Piso Esmaltec 4 Bocas Bali 4111 Acendimento Manual",
-      "price": 588.05,
-      "type": "HOUSEHOLD_APPLIANCE"
-    },
+    "productId": "66797b982847f677df8ad2bd",
     "desiredAt": "2024-06-25T19:18:34.434"
   },
   {
-    "product": {
-      "id": "66797c1a2847f677df8ad2bf",
-      "name": "Micro-ondas Electrolux 23L Prata Efficient - ME23S",
-      "price": 664.05,
-      "type": "HOUSEHOLD_APPLIANCE"
-    },
+    "productId": "66797c1a2847f677df8ad2bf",
     "desiredAt": "2024-06-25T19:18:46.757"
   },
   {
-    "product": {
-      "id": "66797c502847f677df8ad2c0",
-      "name": "Smart TV 43 UHD 4K LED Samsung 43CU7700 - Wi-Fi Bluetooth Alexa 3 HDMI",
-      "price": 1994.05,
-      "type": "TV_VIDEO"
-    },
+    "productId": "66797c502847f677df8ad2c0",
     "desiredAt": "2024-06-25T19:18:53.203"
   },
   {
-    "product": {
-      "id": "66797c782847f677df8ad2c1",
-      "name": "Smart TV 50 4K Ultra HD LED LG 50UR8750 - Wi-Fi Bluetooth Alexa 3 HDMI IA",
-      "price": 2296.17,
-      "type": "TV_VIDEO"
-    },
+    "productId": "66797c782847f677df8ad2c1",
     "desiredAt": "2024-06-25T19:18:59.853"
   },
   {
-    "product": {
-      "id": "66797cd82847f677df8ad2c2",
-      "name": "Smart TV 32 HD LED Semp 32R6610 Wi-Fi 3 HDMI 1 USB",
-      "price": 1025.05,
-      "type": "TV_VIDEO"
-    },
+    "productId": "66797cd82847f677df8ad2c2",
     "desiredAt": "2024-06-25T19:19:06.071"
   },
   {
-    "product": {
-      "id": "66797d572847f677df8ad2c3",
-      "name": "Aparelho de Streaming Amazon Fire TV Stick Lite - Full HD com Controle Remoto",
-      "price": 265.05,
-      "type": "TV_VIDEO"
-    },
+    "productId": "66797d572847f677df8ad2c3",
     "desiredAt": "2024-06-25T19:19:12.289"
   },
   {
-    "product": {
-      "id": "66797f8b2847f677df8ad2c4",
-      "name": "Guarda Roupa Casal 8 Portas 4 Gavetas Paris Espresso Móveis",
-      "price": 829.99,
-      "type": "FURNITURE"
-    },
+    "productId": "66797f8b2847f677df8ad2c4",
     "desiredAt": "2024-06-25T19:19:19.857"
   },
   {
-    "product": {
-      "id": "66797fb02847f677df8ad2c5",
-      "name": "Armário de Cozinha 8 Portas com Nicho Vogue Branco/Preto Kits Paraná - Kit's Paraná",
-      "price": 332.98,
-      "type": "FURNITURE"
-    },
+    "productId": "66797fb02847f677df8ad2c5",
     "desiredAt": "2024-06-25T19:19:25.909"
   },
   {
-    "product": {
-      "id": "66797fd02847f677df8ad2c6",
-      "name": "Mesa Alvorada 180 Tp Mdf Vidro canto Reto 6 Cadeiras Rufato",
-      "price": 1699.9,
-      "type": "FURNITURE"
-    },
+    "productId": "66797fd02847f677df8ad2c6",
     "desiredAt": "2024-06-25T19:19:31.84"
   },
   {
-    "product": {
-      "id": "6679801f2847f677df8ad2c7",
-      "name": "Notebook Samsung Galaxy Book 2 Intel Core i5 8GB - SSD 256GB 15,6” Full HD Windows 11 NP550XED-KF2BR",
-      "price": 2699.1,
-      "type": "COMPUTING"
-    },
+    "productId": "6679801f2847f677df8ad2c7",
     "desiredAt": "2024-06-25T19:19:39.37"
   },
   {
-    "product": {
-      "id": "6679804b2847f677df8ad2c8",
-      "name": "Impressora Multifuncional Epson Ecotank L3250 - Tanque de Tinta Colorida USB Wi-Fi",
-      "price": 1079.1,
-      "type": "COMPUTING"
-    },
+    "productId": "6679804b2847f677df8ad2c8",
     "desiredAt": "2024-06-25T19:19:50.589"
   },
   {
-    "product": {
-      "id": "667980762847f677df8ad2c9",
-      "name": "Monitor para PC AOC 22B1HM5 21,5 75Hz LCD/LED - Widescreen Full HD HDMI VGA",
-      "price": 476.1,
-      "type": "COMPUTING"
-    },
+    "productId": "667980762847f677df8ad2c9",
     "desiredAt": "2024-06-25T19:20:57.272225034"
   }
 ]

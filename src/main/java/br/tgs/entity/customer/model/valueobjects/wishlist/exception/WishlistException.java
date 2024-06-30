@@ -1,4 +1,4 @@
-package br.tgs.entity.wishlist.exception;
+package br.tgs.entity.customer.model.valueobjects.wishlist.exception;
 
 public class WishlistException extends RuntimeException{
 	public WishlistException() {

@@ -37,24 +37,21 @@ public class UseCaseConfig {
 	public WishlistAddProductUserCase wishlistAddProductUserCase(
 		CustomerRespository customerRepository, ProductRespository productRespository) {
 		val customerGateway = new CustomerDatabaseGateway(customerRepository);
-		val productGateway = new ProductDatabaseGateway(productRespository);
-		return new WishlistAddProductUserCase(customerGateway, productGateway);
+		return new WishlistAddProductUserCase(customerGateway);
 	}
 
 	@Bean
 	public WishlistRemoveProductUserCase wishlistRemoveProductUserCase(
 		CustomerRespository customerRepository, ProductRespository productRespository) {
 		val customerGateway = new CustomerDatabaseGateway(customerRepository);
-		val productGateway = new ProductDatabaseGateway(productRespository);
-		return new WishlistRemoveProductUserCase(customerGateway, productGateway);
+		return new WishlistRemoveProductUserCase(customerGateway);
 	}
 
 	@Bean
 	public WishlistFindProductUserCase wishlistFindProductUserCase(
 		CustomerRespository customerRepository, ProductRespository productRespository) {
 		val customerGateway = new CustomerDatabaseGateway(customerRepository);
-		val productGateway = new ProductDatabaseGateway(productRespository);
-		return new WishlistFindProductUserCase(customerGateway, productGateway);
+		return new WishlistFindProductUserCase(customerGateway);
 	}
 
 	@Bean
@@ -62,5 +59,10 @@ public class UseCaseConfig {
 		CustomerRespository customerRepository, ProductRespository productRespository) {
 		val customerGateway = new CustomerDatabaseGateway(customerRepository);
 		return new WishlistFindAllProductsUserCase(customerGateway);
+	}
+
+	@Bean
+	public ProductDatabaseGateway productDatabaseGateway(ProductRespository productRespository) {
+		return new ProductDatabaseGateway(productRespository);
 	}
 }
